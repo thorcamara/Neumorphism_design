@@ -31,3 +31,33 @@ body{
   border-radius: 12px;
   overflow: hidden;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: cetner;
+  position: absolute;
+  top: 0;
+  width: 600px;
+  height: 100%;
+  padding: 25px;
+  background-color: #ecf0f3;
+  transition: 1.25s;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.form-icon{
+  object-fit:contain;
+  width: 30px;
+  margin: 0 5px;
+  opacity: 0.5;
+  transition: 0.15s;
+}
