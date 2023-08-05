@@ -212,13 +212,13 @@ body{
     transition: 0.25s;
 }
 
-is-txr{
+.is-txr{
     left: calc(100% - 400px);
     transition: 1.25s;
     transform-origin: left;
 }
 
-is-txl{
+.is-txl{
     left: 0;
     transition: 1.25s;
     transform-origin: right;
