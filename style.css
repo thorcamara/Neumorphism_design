@@ -134,3 +134,29 @@ body{
   outline: one;
   cursor: pointer;
 }
+
+.register-form{
+  z-index: 100;
+}
+
+.login-form{
+  z-index: 0;
+  left: calc(100% - 600px);
+}
+
+.switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400px;
+  padding: 50px;
+  z-index: 200;
+  transition: 1.25s;
+  background-color: #ecf0f3;
+  overflow: hidden;
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
+}
